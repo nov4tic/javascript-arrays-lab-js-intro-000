@@ -21,13 +21,12 @@ var destructivelyRemoveFirstKitten = () => {
 }
 
 var appendKitten = name => {
-  var newArr = kittens.push(name);
+  var newArr = [name, ... kittens]
   return newArr;
 }
 
 var prependKitten = name => {
-  var newArr2 = kittens.unshift(name[0]);
-  return newArr2;
+
 }
 
 var removeLastKitten = () => {
