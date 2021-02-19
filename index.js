@@ -21,11 +21,11 @@ var destructivelyRemoveFirstKitten = () => {
 }
 
 var appendKitten = name => {
-  
+
 }
 
 var prependKitten = name => {
-  
+
 }
 
 var removeLastKitten = () => {
@@ -34,5 +34,5 @@ var removeLastKitten = () => {
 }
 
 var removeFirstKitten = () => {
-  
+
 }
