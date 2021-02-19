@@ -25,7 +25,8 @@ var appendKitten = name => {
 }
 
 var prependKitten = name => {
-
+  var newArr2 = kittens.unshift(name);
+  return newArr2;
 }
 
 var removeLastKitten = () => {
